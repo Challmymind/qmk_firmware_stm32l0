@@ -18,6 +18,7 @@
 #include <ch.h>
 #include <hal.h>
 #include "chibios_config.h"
+#define CPU_CLOCK 16000000
 
 /* chThdSleepX of zero maps to infinite - so we map to a tiny delay to still yield */
 #define wait_ms(ms)                     \

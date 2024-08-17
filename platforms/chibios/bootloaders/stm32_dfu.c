@@ -16,6 +16,7 @@
 
 #include "bootloader.h"
 #include "util.h"
+#define STM32_BOOTLOADER_ADDRESS 0x08000000
 
 #include <ch.h>
 #include <hal.h>
