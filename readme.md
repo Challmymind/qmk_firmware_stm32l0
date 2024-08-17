@@ -1,3 +1,7 @@
+# To compile my improvised support (working oon my pcb) use this:
+```make anvil:default VERBOSE=TRUE MCU_STARTUP=stm32l0xx ARMV=6 MCU_PORT_NAME=STM32 MCU_SERIES=STM32L0xx BOARD=ST_NUCLEO64_L053R8 CPU_CLOCK=16000000```
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
